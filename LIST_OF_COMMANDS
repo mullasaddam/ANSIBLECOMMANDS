@@ -1,0 +1,226 @@
+ansible-model@ip-172-31-39-128 tmp]$ history
+    1  exit
+    2  pwd
+    3  whoiam i
+    4  whoami
+    5  sudo su -
+    6  su - ansible-model@172.31.37.174
+    7  sudo su -
+    8  ssh ansible-model@172.31.37.174
+    9  yum instal tree -y
+   10  yum install tree -y
+   11  exit
+   12  yum install tree -y
+   13  sudo su -
+   14  exit
+   15   ssh ansible-model@172.31.37.174
+   16  exit
+   17  clear
+   18  exit
+   19  systemctl restart sshd
+   20  systemctl status sshd.service
+   21  systemctl restart sshd.service
+   22  service sshd restart
+   23  service sshd stop
+   24  exit
+   25  sudo service sshd stop
+   26  sudo service sshd start
+   27  sudo service sshd restart
+   28  ssh 172.31.37.168
+   29  cd ../..
+   30  exit
+   31  ssh-keygen
+   32  ls- lrta
+   33  ls -lrta
+   34  cd .ssh
+   35  ls -lrta
+   36  ssh-copy-id ansible-model@172.31.37.168
+   37  ssh-copy-id ansible-model@172.31.37.174
+   38  clear
+   39  ssh ansible-model@172.31.37.168
+   40  ssh ansible-model@172.31.37.174
+   41  exit
+   42  ifconfig -i
+   43  exit
+   44  EXIT
+   45  exit
+   46  EXIT
+   47  exit
+   48  ssh ansible-model@172.31.37.168
+   49  cd etc
+   50  cd ..
+   51  cd etc
+   52  ls -lrta
+   53  cd ansible/
+   54  ls -lrtsa
+   55  vim hosts
+   56  sudo vim hosts
+   57  sudo vim ansible.cfg
+   58  nsible all --lists-hots
+   59  nsible all --lists -hots
+   60  a nsible all --lists -hots
+   61  ansible all --lists -hots
+   62  ansible all --lists-hots
+   63  ansible all --lists-hosts
+   64  ansible all --lists -hosts
+   65  cleart
+   66  clear
+   67  ansible webserver[0] --list
+   68  ansible webserver[0] --lists
+   69  ansible webserver[0] --lists-hosts
+   70  sudo vim ansible.cfg
+   71  sudo vim hosts
+   72  ansible webservers[0] --lists-hosts
+   73  ansible all --lists-hosts
+   74  ls -lrta
+   75  exit
+   76  ansible all list-all
+   77  ansible all --list-hosts
+   78  ansible webserver[0] --list-hosts
+   79  ansible webservers[0] --list-hosts
+   80  ansible all -m ping
+   81  cd ../../etc/ansible/
+   82  sudo vim ansible.cfg
+   83  ansible all -m ping
+   84  sudo vim ansible.cfg
+   85  ansible all -m ping
+   86  ansible websrevers[0] -am "sudo touch saddam.tc"
+   87  ansible websrevers[0] -a  "sudo touch saddam.tc"
+   88  ansible websrevers[0]  -a  "sudo touch saddam.tc"
+   89  ansible webservers[0]  -a  "sudo touch saddam.tc"
+   90  ansible webservers[0]  -a  "ls *touch saddam.tc*"
+   91  ansible webservers[0]  -a  "ls *saddam.tc*"
+   92  ansible webservers[0]  -a  "ls saddam.tc*"
+   93  ansible webservers[0]  -a  "ls -lrat  saddam.tc*"
+   94  ansible webservers[0]  -a  "ls -lrta  saddam.tc*"
+   95  ansible webservers[0]  -a  "sudo ls -lrta  saddam.tc*"
+   96  ansible webservers[0]  -a  "sudo ls -lrta  saddam.tc*" -b
+   97  ansible webservers[0]  -a  " ls " -b
+   98  ansible webservers[0]  -a  " ls saddam* " -b
+   99  ansible webservers[0]  -a  " ls -lrta saddam* " -b
+  100  ansible webservers[0]  -a  "sudo touch /saddam.tc"
+  101  ansible webservers[0]  -a  " ls -lrt saddam* " -b
+  102  ansible webservers[0]  -a  "ls -lrt saddam*"
+  103  ansible webservers[0]  -a  " ls -lrt *saddam* "
+  104  ansible webservers[0]  -a  " ls -lrt /*saddam* "
+  105  ansible webservers[0]  -a  " ls -lrt "
+  106  ansible webservers[0]  -a  " ls -lrta "
+  107  ansible webservers[0]  -a  " ls -lrta / "
+  108  ansible webservers[0]  -a  " ls -lrta /saddam* "
+  109  ansible webservers[0]  -a  " ls -lrt /saddam* "
+  110  ansible webservers[0]  -a  " ls -lrt /saddam.tc "
+  111  ansible webservers[0]  -a  " ls -lrt /saddam.tc* "
+  112  ansible webservers[0]  -a  " ls -lrt /saddam. "
+  113  ansible webservers[0]  -a  " ls -lrt /*saddam.* "
+  114  ansible webservers[0]  -a  " ls -lrt /saddam.tc "
+  115  clear
+  116  ansible all -a --list-hosts
+  117  ansible all  --list-hosts
+  118  ansible all -a "hosts"
+  119  ansible all -a " hosts "
+  120  ansible all -a " hostname "
+  121  ansible all -m ping
+  122  ansible all -a " ping "
+  123  ansible all -m ping
+  124  ansible all -a "date"
+  125  ansible all -m date
+  126  ansible all -m {date}
+  127  ansible all -a " which git "
+  128  ansible all -a " sudo  which git "
+  129  ansible all -a " sudo  which git " -b
+  130  ansible all -a " sudo yum install git tree -y " -b
+  131  ansible all -a " sudo  which git " -b
+  132  ansible all -a " sudo systemctl status git " -b
+  133  ansible all -a " systemctl status git " -b
+  134  ansible all -a " sudo yum install docker -y " -b
+  135  ansible all -a " systemctl status docker  " -b
+  136  ansible all -a " systemctl start docker  " -b
+  137  ansible all -a " systemctl status docker  " -b
+  138  ansible all -a " docker images  " -b
+  139  ansible all -a " docker run -dt --name saddam -p 8080:8080 jenkins:latest  " -b
+  140  ansible all -a " docker search jenkines  " -b
+  141  ansible all -a " docker run -dt --name saddam -p 8080:8080 jenkines:latest  " -b
+  142  ansible all -a " docker login  " -b
+  143  ansible all -a " systemctl status docker  " -b
+  144  ansible all -a " docker images " -b
+  145  ansible all -a " docker run -dt --name saddam -p 8080:8080 jenkine/jenkines:latest  " -b
+  146  ansible all -a " docker run -dt --name saddam -p 8080:8080 jenkines/jenkines:latest  " -b
+  147  ansible all -a " docker run -dt --name saddam -p 8080:8080 huashuo/jenkines  " -b
+  148  ansible all -a " docker ps -a  " -b
+  149  ansible all -a " docker ps  " -b
+  150  ansible all -a " cat /var/jenkins_home/secrets/initialAdminPassword  " -b
+  151  ansible webserver[0] -a " docker attach 50f6cb405922 " -b
+  152  ansible webservers[0] -a " docker attach 50f6cb405922 " -b
+  153  ansible webservers[0] -a " docker attach 9863a69e3d7b " -b
+  154  ssh ansible-model@172.31.37.168
+  155  ansible webservers[0] -a " docker exec -it /bin/bash  9863a69e3d7b " -b
+  156  ansible webservers[0] -a " docker exec -it 9863a69e3d7b /bin/bash " -b
+  157  ansible all -a " yum install httpd " -b
+  158  ansible all -a " yum install httpd -y  " -b
+  159  ansible all -a " systemctl status httpd -y  " -b
+  160  ansible all -a " systemctl status httpd   " -b
+  161  ansible all -a " systemctl start httpd   " -b
+  162  ansible all -a " systemctl status httpd   " -b
+  163  ansible all -a " ls -lrta /var/www/html " -b
+  164  cd var
+  165  cd ../../var
+  166  ls -lrta
+  167  cd wwww
+  168  touch index.html
+  169  sudo touch index.html
+  170  touch index.html
+  171  ls -lrta
+  172  nano index.html
+  173  vim index.html
+  174  sudo vim index.html
+  175  pwd
+  176  ansible all -a " cp -f /var/index.html /var/www/html . " -b
+  177  ansible all -a " cp -f /var/index.html /var/www/html/  " -b
+  178  ansible all -a " cp -f /var/* /var/www/html/  " -b
+  179  ansible all -a " cp /var/index* /var/www/html/  " -b
+  180  ansible all -a " cp index* /var/www/html/  " -b
+  181  ls -lrta
+  182  cd ..
+  183  pw
+  184  pwd
+  185  cp -f /var/index.html / .
+  186  sudo cp -f /var/index.html / .
+  187  sudo cp  /var/index.html / .
+  188  clear
+  189  172.31.37.174
+  190  ifconfig
+  191  ssh ansible-model@172.31.37.168
+  192  ansible all -a " systemctl start docker " -b
+  193  ansbile all -a " systemctl status docker " -b
+  194  ansbile all -a " systemctl status docker "
+  195  ansible  all -a " systemctl status docker " -b
+  196  ansible  all -a " docker images  " -b
+  197  ansible  all -a " docker ps   " -b
+  198  ansible  all -a " docker ps -a  " -b
+  199  ansible  all -a " docker start 9863a69e3d7b   " -b
+  200  ansible  all -a " docker start 50f6cb405922 " -b
+  201  clear
+  202  ansible  all -a " docker ps   " -b
+  203  ansible  all -a " docker attach -it /bin/bash    " -b
+  204  ansible  all -a " docker attach -it 9863a69e3d7b /bin/bash    " -b
+  205  ansible  all -a " docker exec -it 9863a69e3d7b /bin/bash    " -b
+  206  ansible  webservers[0] -a " docker exec -it 9863a69e3d7b /bin/bash    " -b
+  207  cleare
+  208  clear
+  209  cd ../..
+  210  cd ..
+  211  ls -lrta
+  212  pwd
+  213  ansible all -m ansible.builtin.copy -a "src=/ dest=/tmp/hosts"
+  214  ansible all -m ansible.builtin.copy -a " src=/ dest=/tmp/hosts " -b
+  215  ansible all -m ansible.builtin.copy -a " src=/index.html  dest=/tmp/hosts " -b
+  216  cd ..
+  217  cd ../..etc
+  218  cd tmp
+  219  ls -lrta
+  220  ls -lrt
+  221  ls -lrta
+  222  ansible all -m ansible.builtin.copy -a " src=/ dest=/tmp/saddam/ " -b
+  223  ansible all -m ansible.builtin.copy -a " src=/ dest=/tmp/saddam " -b
+  224  ansible all -m ansible.builtin.copy -a " src=/index.html dest=/tmp/saddam " -b
+  225  history
