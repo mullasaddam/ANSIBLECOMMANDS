@@ -1,0 +1,24 @@
+---
+- name: installing curl command
+  hosts: all
+  become: true
+
+  tasks:
+  - name: installing
+    yum:
+      name: curl
+      state: installed
+    when: ansible_os_family ==  "Debian"
+
+  - name: installing
+    yum:
+      name: java
+      state: installed
+    when: ansible_os_family ==  "RedHat"
+
+  - name: downolading urltomcat
+    get_url:
+      url: java
+      dest: /opt
+    when: ansible_os_family ==  "RedHat"
+
